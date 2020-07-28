@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+.cover{
+    height: 100%;
+}
+.cover{
+    background-image: url('../images/couchfriends.jpg');
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #100;
+}
+.navbar-brand{
+    letter-spacing: normal;
+}
+@media(max-width:789px){
+    .navbar-header{
+      border-bottom: 1px solid white;
+    }
+  }
+.navbar{
+    opacity: 0.9;
+}
+.cover img{
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+@media(max-width:495px){
+    .cover img{
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.cover-text{
+   color: white;
+   display: table-cell;
+   vertical-align: middle;
+    text-align: center;
+    width: 70%;
+
+}
+.cover-text h1{
+    font-size: 60px;
+    color: burlywood;
+    line-height: 40px;
+    letter-spacing: -4px;
+}
+.lead{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.cover-text p{
+  margin: 0 0 10px;
+}
+.cover-text p{
+    color: white;
+}
+
+@media only screen and (max-width:568px){
+    .cover-text h1{
+        font-size: 40px;
+    }
+}
+.testimonial{
+    background: #100000;
+    padding: 100px;
+}
+blockquote{
+    border: none;
+    font-family: Georgia , Times, monospace;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 32px;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+}
+@media(max-width:1000px){
+  .col-lg-4 .col-md-4 .col-sm-4 .col-12 p{
+         font-size: 30px;
+  }
+}
+@media(max-width:360px){
+    blockquote{
+        width: 100%;
+        font-size: 25px;
+    font-family: Georgia , Times, monospace;
+
+    }
+}
+blockquote cite{
+    display: block;
+    font-family: Helvitica, sans-serif, Arial;
+    font-size: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+color: antiquewhite;
+}
+section h2{
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#team{
+    background-image: url('../images/fan.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 568px){
+  section {
+    padding: 20px;
+}
+}
+footer{
+    background: #222;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+   font-family: Times, sans-serif, serif
+}
+footer a{
+    color: red;
+    
+}
